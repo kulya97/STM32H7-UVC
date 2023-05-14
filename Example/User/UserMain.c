@@ -23,7 +23,7 @@ void UserConfigInit() {
  */
 void UserSysInit() {
 	 //Cache_Enable();
-	//MPU_Memory_Protection();
+	MPU_Memory_Protection();
 	 //HAL_PWREx_EnableUSBVoltageDetector();
 		//Stm32_Clock_Init(192,5,2,4);  		    //????,400Mhz 
 	delay_init(400);
@@ -50,12 +50,12 @@ void UserSysInit() {
  * 主循环,任务分发
  */
 void UserLoop() {
-//LCD_Clear(RED);
-//	delay_ms(500);
-//	LCD_Clear(WHITE);
-//	delay_ms(500);
-//	LCD_Clear(BLUE);
-//	delay_ms(500);
+LCD_Clear(RED);
+	delay_ms(500);
+	LCD_Clear(WHITE);
+	delay_ms(500);
+	LCD_Clear(BLUE);
+	delay_ms(500);
 }
 void UserErrorHandler(){
 		printf("system error!\n");

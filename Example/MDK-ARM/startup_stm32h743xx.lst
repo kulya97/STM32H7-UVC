@@ -1264,10 +1264,10 @@ ARM Macro Assembler    Page 20
               00000000 
 Command Line: --xref --diag_suppress=9931 --cpu=Cortex-M7.fp.dp --apcs=interwor
 k --depend=stm32h7_uvc\startup_stm32h743xx.d -ostm32h7_uvc\startup_stm32h743xx.
-o -I.\RTE\_STM32H7_UVC -IE:\SoftData\Keil_v5\Arm\CMSIS\5.7.0\CMSIS\Core\Include
+o -I.\RTE\_STM32H7_UVC -IE:\SoftData\Keil_v5\Arm\CMSIS\5.9.0\CMSIS\Core\Include
  -IE:\SoftData\Keil_v5\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7
 xx\Include --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 
-533" --predefine="_RTE_ SETA 1" --predefine="STM32H743xx SETA 1" --predefine="_
+538" --predefine="_RTE_ SETA 1" --predefine="STM32H743xx SETA 1" --predefine="_
 RTE_ SETA 1" --list=startup_stm32h743xx.lst startup_stm32h743xx.s
 
 

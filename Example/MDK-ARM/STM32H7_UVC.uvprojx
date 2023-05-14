@@ -186,6 +186,7 @@
             <RvdsVP>3</RvdsVP>
             <RvdsMve>0</RvdsMve>
             <RvdsCdeCp>0</RvdsCdeCp>
+            <nBranchProt>0</nBranchProt>
             <hadIRAM2>1</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
@@ -1125,6 +1126,16 @@
               <FileName>usbd_uvc.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\usb_uvc\Src\usbd_uvc.c</FilePath>
+            </File>
+            <File>
+              <FileName>usbd_uvc.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>E:\zancun\STM32H7_UVC\usb_uvc\Inc\usbd_uvc.h</FilePath>
+            </File>
+            <File>
+              <FileName>usbd_uvc_if.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>E:\zancun\STM32H7_UVC\usb_uvc\Inc\usbd_uvc_if.h</FilePath>
             </File>
           </Files>
         </Group>
